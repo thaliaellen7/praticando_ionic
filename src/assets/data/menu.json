@@ -1,0 +1,50 @@
+[
+    {
+      "icone" : "flash",
+      "nome": "Alertas",
+      "link":"/alert"
+
+    },
+    {
+      "icone" : "leaf",
+      "nome": "Chamadas de páginas",
+      "link":"/action-sheet"
+
+    },
+    {
+      "icone" : "albums",
+      "nome": "Cards",
+      "link":"/cards"
+
+    },
+    {
+      "icone" : "calendar",
+      "nome": "Datas",
+      "link":"/datas"
+
+    },
+    {
+      "icone" : "apps",
+      "nome": "Grid",
+      "link":"/grid"
+
+    },
+    {
+      "icone" : "list-box",
+      "nome": "Input",
+      "link":"/input"
+
+    },
+    {
+      "icone" : "code-working",
+      "nome": "Slides",
+      "link":"/slides"
+
+    },
+    {
+      "icone" : "american-football",
+      "nome": "Toast",
+      "link":"/toast"
+
+    }
+  ]

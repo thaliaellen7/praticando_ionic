@@ -1,0 +1,20 @@
+<app-header [titulo]="titulo || 'Página de Alerta'"></app-header>
+
+<ion-content>
+
+    <ion-button  expand="full" (click)="presentAlert()" >
+        <ion-icon slot="start" name="star"></ion-icon>
+        Botão 1
+      </ion-button>
+
+     <ion-button  expand="full" (click)="presentAlertPrompt()" >
+        <ion-icon slot="start" name="star"></ion-icon>
+        Botão 2
+      </ion-button>
+
+      <ion-button  expand="full" (click)="presentAlertPrompt()" >
+        <ion-icon slot="start" name="star"></ion-icon>
+        Present Input
+      </ion-button>
+
+</ion-content>

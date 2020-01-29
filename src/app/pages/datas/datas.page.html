@@ -1,0 +1,17 @@
+<app-header titulo="Datas"></app-header>
+
+<ion-content>
+
+  <ion-item>
+    <ion-label>Data Atual</ion-label>
+    <ion-datetime placeholder="Data" display-format="DD/MM/YY" cancelText="Cancelar" [ngModel]="dataAtual.toISOString()"
+      (ionChange)="trocarData($event)"> </ion-datetime>
+  </ion-item>
+  <ion-item>
+    <ion-label>Data Final</ion-label>
+    <ion-datetime placeholder="--/--/---" display-format="YY" cancelText="Cancelar" [ngModel]="dataAtual.toISOString()"
+      min="2017" max="2018"> </ion-datetime>
+  </ion-item>
+
+</ion-content>
+<!-- value = "{{dataAtual | date:'yyyy-MM-dd'}}"  -->
